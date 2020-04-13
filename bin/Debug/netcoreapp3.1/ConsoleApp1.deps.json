@@ -1,0 +1,109 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "Microsoft.Office.Interop.PowerPoint": "15.0.4420.1017",
+          "System.Drawing.Common": "5.0.0-preview.2.20160.6"
+        },
+        "runtime": {
+          "ConsoleApp1.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.0-preview.2.20160.6": {},
+      "Microsoft.Office.Interop.PowerPoint/15.0.4420.1017": {
+        "runtime": {
+          "lib/net20/Microsoft.Office.Interop.PowerPoint.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.4420.1017"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/5.0.0-preview.2.20160.6": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0-preview.2.20160.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.16006"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.16006"
+          }
+        }
+      },
+      "System.Drawing.Common/5.0.0-preview.2.20160.6": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0-preview.2.20160.6",
+          "Microsoft.Win32.SystemEvents": "5.0.0-preview.2.20160.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.16006"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.16006"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/5.0.0-preview.2.20160.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S6k9S3afzVzH987kuSwRJPa+5HN1gvBoeUdrNFPFfjUypMUE3NRFod8Gz+cTW5MXWPTgtibnk7nVYOSX3Om6KA==",
+      "path": "microsoft.netcore.platforms/5.0.0-preview.2.20160.6",
+      "hashPath": "microsoft.netcore.platforms.5.0.0-preview.2.20160.6.nupkg.sha512"
+    },
+    "Microsoft.Office.Interop.PowerPoint/15.0.4420.1017": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8/C095a6ojqtWJzLFPYbHAjBM6C4koAcZ4NW50N1L7HHsFAAqN1RpEhE8tFry2fjJLMwz1hYOm2A4MS9DS7n2A==",
+      "path": "microsoft.office.interop.powerpoint/15.0.4420.1017",
+      "hashPath": "microsoft.office.interop.powerpoint.15.0.4420.1017.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/5.0.0-preview.2.20160.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ak+4cRwWo8j+3iaLKdXoR7dXUyVV0HFB9Ln3Ax+BdwhqmCvc/FoxWQwMzdTQGUBy/i/bdDrw6h5l9J6Nv8t0Pg==",
+      "path": "microsoft.win32.systemevents/5.0.0-preview.2.20160.6",
+      "hashPath": "microsoft.win32.systemevents.5.0.0-preview.2.20160.6.nupkg.sha512"
+    },
+    "System.Drawing.Common/5.0.0-preview.2.20160.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q7jh7RzlsHX2CjcF2yYmd/j5zeDgeGk4mOlifEsu7UW9Vwklf5JuNcVSNi2g2+4viPI1Q3p4JpIsB0bsYNKcOg==",
+      "path": "system.drawing.common/5.0.0-preview.2.20160.6",
+      "hashPath": "system.drawing.common.5.0.0-preview.2.20160.6.nupkg.sha512"
+    }
+  }
+}
